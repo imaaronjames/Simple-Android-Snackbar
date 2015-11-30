@@ -16,7 +16,7 @@ More info about modules for Framer Studio: [FramerJS Docs - Modules](http://fram
 ## How to use this module
 You only need one line of code to make Simple Android Snackbars work. It looks a little something like this:
 
-&nbsp;&nbsp;&nbsp;&nbsp;`android.snackbar("Snackbar is one line by default.", null, null, false)`
+&nbsp;&nbsp;&nbsp;&nbsp;`android.snackbar("Snackbar is one line by default.")`
 
 ### Simple yet powerful customization
 There are three parameters you can change: keyboardType, keyboardTheme, and hasAutoCorrect
