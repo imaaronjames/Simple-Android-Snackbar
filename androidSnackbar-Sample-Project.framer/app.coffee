@@ -18,7 +18,7 @@ helpText.style =
 helpText.center()
 
 # Single-line snackbar with no button
-android.snackbar("Snackbar is one line by default.", null, null, false)
+android.snackbar("Snackbar is one line by default.")
 
 ## Multi-line snackbar with action button
 bg.on Events.Click, ->

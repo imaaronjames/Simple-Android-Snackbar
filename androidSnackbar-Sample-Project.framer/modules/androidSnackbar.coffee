@@ -27,6 +27,7 @@ exports.snackbar = (snackbarMessage, actionText, textColor, twoLines) ->
 	if twoLines == true then snackbarMult = 1.44 else snackbarMult = 1
 	if snackbarMult == 1.44 then textHeight = 120 else textHeight = 60
 	if actionText == null then makeActionBTN = false else makeActionBTN = true
+	if actionText == undefined then makeActionBTN = false
 	if textColor == null then textColor = "rgba(128,203,196,1)"
 
 	# Create snackbar layers
