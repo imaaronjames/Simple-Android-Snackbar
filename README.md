@@ -7,7 +7,7 @@ A Framer Studio module for adding Android Material Design Snackbars to your proj
 2. Create a new Framer project and add androidSnackbar.coffee to your /modules folder.
 3. Add `android = require 'androidSnackbar'` at the top of your document.
 
-[Sample Project can be found here.](http://share.framerjs.com/x3pwga3rbpt4/)
+[Sample Project can be found here.](http://share.framerjs.com/ambwyc922b0m/)
 
 More info about modules for Framer Studio: [FramerJS Docs - Modules](http://framerjs.com/docs/#modules)
 
