@@ -5,7 +5,7 @@ A Framer Studio module for adding Android Material Design Snackbars to your proj
 
 1. Download the androidSnackbar.coffee file.
 2. Create a new Framer project and add androidSnackbar.coffee to your /modules folder.
-3. Add `android = require 'androidSnackbar'` at the top of your document.
+3. Add `Android = require 'androidSnackbar'` at the top of your document.
 
 [Sample Project can be found here.](http://share.framerjs.com/ambwyc922b0m/)
 
@@ -16,7 +16,7 @@ More info about modules for Framer Studio: [FramerJS Docs - Modules](http://fram
 ## How to use this module
 You only need one line of code to make Simple Android Snackbars work. It looks a little something like this:
 
-&nbsp;&nbsp;&nbsp;&nbsp;`android.snackbar("Snackbar is one line by default.")`
+&nbsp;&nbsp;&nbsp;&nbsp;`Android.Snackbar("Snackbar is one line by default.")`
 
 ### Simple yet powerful customization
 There are three parameters you can change: keyboardType, keyboardTheme, and hasAutoCorrect

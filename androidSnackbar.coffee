@@ -1,4 +1,4 @@
-# Module created by Aaron James | November 25th, 2015
+# Module created by Aaron James | April 16th, 2016
 #
 # Please install the font Roboto here: http://bit.ly/1PZw1T0
 #
@@ -22,7 +22,7 @@
 # You can add an Event to the snackbarActionBTN:
 # snackbarActionBTN.on Events.Click, ->
 
-exports.snackbar = (snackbarMessage, actionText, textColor, twoLines) ->
+exports.Snackbar = (snackbarMessage, actionText, textColor, twoLines) ->
 
 	if twoLines == true then snackbarMult = 1.44 else snackbarMult = 1
 	if snackbarMult == 1.44 then textHeight = 120 else textHeight = 60

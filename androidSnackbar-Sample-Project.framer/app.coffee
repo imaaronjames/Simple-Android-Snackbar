@@ -1,5 +1,5 @@
 ## Created by Aaron James - April 14th, 2016
-android = require "androidSnackbar"
+Android = require "androidSnackbar"
 
 bg = new BackgroundLayer
 	backgroundColor: "#eeeeee"
@@ -18,11 +18,11 @@ helpText.style =
 helpText.center()
 
 # Single-line snackbar with no button
-android.snackbar("Snackbar is one line by default.")
+Android.Snackbar("Snackbar is one line by default.")
 
 ## Multi-line snackbar with action button
 bg.on Events.Click, ->
-	android.snackbar("This snackbar supports up to two lines of text. Here is an example.", "done", "rgba(33,150,243,1)", true)
+	Android.Snackbar("This snackbar supports up to two lines of text. Here is an example.", "done", "rgba(33,150,243,1)", true)
 
 	snackbarActionBTN.on Events.Click, ->
 		helpText.style = "color": "green"
